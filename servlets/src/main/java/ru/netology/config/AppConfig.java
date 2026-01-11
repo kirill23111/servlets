@@ -9,6 +9,7 @@ import ru.netology.service.PostService;
 @Configuration
 public class AppConfig {
 
+
     @Bean
     public PostRepository postRepository() {
         return new PostRepository();
